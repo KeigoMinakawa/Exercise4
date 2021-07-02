@@ -1,4 +1,5 @@
 import java.util.Random;
+import java.util.Scanner;
 class RollDice{
 
 public RollDice(){
@@ -19,6 +20,12 @@ public static void  main(String[] args){
 
 RollDice rd = new RollDice();
   int total;
+  // Scanning name added
+  Scanner scanner = new Scanner(System.in);
+
+System.out.println("What is your name");
+String name = scanner.next();
+System.out.println("Hello, "+name+"!");
 
 System.out.println("Rolling the dice...");
 
