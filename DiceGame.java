@@ -36,5 +36,7 @@ System.out.println("Die 2: "+die[1]);
 total = rd.Implement(die[0],die[1]);
 
 System.out.println("Total value: " + total);
-if(total > 7) System.out.println("You won!");
- else System.out.println("You lost!");
+if(total > 7) System.out.println(name +" won!");
+ else System.out.println(name+ " lost!");
+}
+}
